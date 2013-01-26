@@ -15,7 +15,7 @@ gem 'do_postgres',  DO_VERSION
 gem 'dm-do-adapter',      DM_VERSION
 gem 'dm-postgres-adapter', DM_VERSION
 
-gem 'rake',           '~> 0.9.2'
+gem 'rake',           '>= 0.9.2'
 
 group :development do
   gem 'rspec', '~> 1.3.2'
